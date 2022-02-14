@@ -1,0 +1,138 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'difficulty.ui'
+##
+## Created by: Qt User Interface Compiler version 5.15.2
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide2.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtWidgets import *
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        if not MainWindow.objectName():
+            MainWindow.setObjectName(u"MainWindow")
+        MainWindow.resize(777, 627)
+        self.centralwidget = QWidget(MainWindow)
+        self.centralwidget.setObjectName(u"centralwidget")
+        self.infoLabel = QLabel(self.centralwidget)
+        self.infoLabel.setObjectName(u"infoLabel")
+        self.infoLabel.setGeometry(QRect(360, 130, 311, 311))
+        font = QFont()
+        font.setPointSize(12)
+        font.setBold(False)
+        font.setWeight(50)
+        self.infoLabel.setFont(font)
+        self.infoLabel.setScaledContents(True)
+        self.infoLabel.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
+        self.columnsLabel = QLabel(self.centralwidget)
+        self.columnsLabel.setObjectName(u"columnsLabel")
+        self.columnsLabel.setGeometry(QRect(13, 208, 241, 31))
+        self.minesSlider = QSlider(self.centralwidget)
+        self.minesSlider.setObjectName(u"minesSlider")
+        self.minesSlider.setGeometry(QRect(30, 400, 301, 41))
+        self.minesSlider.setMinimum(2)
+        self.minesSlider.setMaximum(200)
+        self.minesSlider.setTracking(True)
+        self.minesSlider.setOrientation(Qt.Horizontal)
+        self.columnsSlider = QSlider(self.centralwidget)
+        self.columnsSlider.setObjectName(u"columnsSlider")
+        self.columnsSlider.setGeometry(QRect(30, 250, 301, 41))
+        self.columnsSlider.setMinimum(2)
+        self.columnsSlider.setMaximum(43)
+        self.columnsSlider.setOrientation(Qt.Horizontal)
+        self.welcome_label = QLabel(self.centralwidget)
+        self.welcome_label.setObjectName(u"welcome_label")
+        self.welcome_label.setGeometry(QRect(13, 70, 431, 61))
+        font1 = QFont()
+        font1.setFamily(u"MS Sans Serif")
+        font1.setBold(True)
+        font1.setItalic(True)
+        font1.setWeight(75)
+        self.welcome_label.setFont(font1)
+        self.welcome_label.setLayoutDirection(Qt.LeftToRight)
+        self.welcome_label.setAlignment(Qt.AlignCenter)
+        self.startButton = QPushButton(self.centralwidget)
+        self.startButton.setObjectName(u"startButton")
+        self.startButton.setGeometry(QRect(20, 520, 321, 61))
+        self.columnsSliderLabel = QLabel(self.centralwidget)
+        self.columnsSliderLabel.setObjectName(u"columnsSliderLabel")
+        self.columnsSliderLabel.setGeometry(QRect(340, 260, 20, 20))
+        self.customBox = QCheckBox(self.centralwidget)
+        self.customBox.setObjectName(u"customBox")
+        self.customBox.setGeometry(QRect(160, 170, 201, 41))
+        self.difficultyBox = QComboBox(self.centralwidget)
+        self.difficultyBox.addItem("")
+        self.difficultyBox.addItem("")
+        self.difficultyBox.addItem("")
+        self.difficultyBox.setObjectName(u"difficultyBox")
+        self.difficultyBox.setGeometry(QRect(20, 170, 121, 41))
+        sizePolicy = QSizePolicy(QSizePolicy.Maximum, QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.difficultyBox.sizePolicy().hasHeightForWidth())
+        self.difficultyBox.setSizePolicy(sizePolicy)
+        self.rowsSlider = QSlider(self.centralwidget)
+        self.rowsSlider.setObjectName(u"rowsSlider")
+        self.rowsSlider.setGeometry(QRect(30, 320, 301, 41))
+        self.rowsSlider.setMinimum(2)
+        self.rowsSlider.setMaximum(32)
+        self.rowsSlider.setSingleStep(1)
+        self.rowsSlider.setOrientation(Qt.Horizontal)
+        self.rowsLabel = QLabel(self.centralwidget)
+        self.rowsLabel.setObjectName(u"rowsLabel")
+        self.rowsLabel.setGeometry(QRect(13, 293, 261, 16))
+        self.minesLabel = QLabel(self.centralwidget)
+        self.minesLabel.setObjectName(u"minesLabel")
+        self.minesLabel.setGeometry(QRect(13, 377, 261, 16))
+        self.rowsSliderLabel = QLabel(self.centralwidget)
+        self.rowsSliderLabel.setObjectName(u"rowsSliderLabel")
+        self.rowsSliderLabel.setGeometry(QRect(340, 330, 21, 21))
+        self.minesSliderLabel = QLabel(self.centralwidget)
+        self.minesSliderLabel.setObjectName(u"minesSliderLabel")
+        self.minesSliderLabel.setGeometry(QRect(340, 410, 31, 21))
+        self.confirmButton = QPushButton(self.centralwidget)
+        self.confirmButton.setObjectName(u"confirmButton")
+        self.confirmButton.setGeometry(QRect(20, 450, 321, 61))
+        self.difficultyLabel = QLabel(self.centralwidget)
+        self.difficultyLabel.setObjectName(u"difficultyLabel")
+        self.difficultyLabel.setGeometry(QRect(13, 126, 161, 41))
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QMenuBar(MainWindow)
+        self.menubar.setObjectName(u"menubar")
+        self.menubar.setGeometry(QRect(0, 0, 777, 21))
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QStatusBar(MainWindow)
+        self.statusbar.setObjectName(u"statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+
+        QMetaObject.connectSlotsByName(MainWindow)
+    # setupUi
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        self.infoLabel.setText("")
+        self.columnsLabel.setText(QCoreApplication.translate("MainWindow", u"Choose number of columns", None))
+        self.welcome_label.setText(QCoreApplication.translate("MainWindow", u"WELCOME TO MINESWEEPER", None))
+        self.startButton.setText(QCoreApplication.translate("MainWindow", u"Start Game", None))
+        self.columnsSliderLabel.setText("")
+        self.customBox.setText(QCoreApplication.translate("MainWindow", u"Custom Settings", None))
+        self.difficultyBox.setItemText(0, QCoreApplication.translate("MainWindow", u"Easy", None))
+        self.difficultyBox.setItemText(1, QCoreApplication.translate("MainWindow", u"Medium", None))
+        self.difficultyBox.setItemText(2, QCoreApplication.translate("MainWindow", u"Hard", None))
+
+        self.rowsLabel.setText(QCoreApplication.translate("MainWindow", u"Choose number of rows", None))
+        self.minesLabel.setText(QCoreApplication.translate("MainWindow", u"Choose number of mines", None))
+        self.rowsSliderLabel.setText("")
+        self.minesSliderLabel.setText("")
+        self.confirmButton.setText(QCoreApplication.translate("MainWindow", u"Set Level", None))
+        self.difficultyLabel.setText(QCoreApplication.translate("MainWindow", u"Choose Difficulty:", None))
+    # retranslateUi
+
