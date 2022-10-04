@@ -59,9 +59,10 @@ framework to for example PyGame.
 
 [(Back to top)](#table-of-contents)
 
-![Screenshot from menu](/Minesweeper/Example Photos/Menu1.png "Menu")
+MENU:
+![Screenshot from menu](https://raw.github.com/GreysonKrystian/Minesweeper/Example Photos/Menu1.png)
 
-TODO
+
 
 
 # License
