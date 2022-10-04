@@ -60,7 +60,16 @@ framework to for example PyGame.
 [(Back to top)](#table-of-contents)
 
 MENU:
-![Screenshot from menu](https://raw.github.com/GreysonKrystian/Minesweeper/tree/master/Example%20Photos/Menu1.png)
+![Screenshot from menu](https://raw.github.com/GreysonKrystian/Minesweeper/master/Example%20Photos/Menu_1.png)
+![Screenshot from menu](https://raw.github.com/GreysonKrystian/Minesweeper/master/Example%20Photos/Menu_2.png)
+
+
+GAMEPLAY:
+![Screenshot from menu](https://raw.github.com/GreysonKrystian/Minesweeper/master/Example%20Photos/Gameplay_1.png)
+![Screenshot from menu](https://raw.github.com/GreysonKrystian/Minesweeper/master/Example%20Photos/Gameplay_Won.png)
+![Screenshot from menu](https://raw.github.com/GreysonKrystian/Minesweeper/master/Example%20Photos/Game_Ended.png)
+
+
 
 
 
