@@ -12,11 +12,9 @@
 - [License](#license)
 
 
-# Requiremenets
+# Requirements
 
-[(Back to top)](#table-of-contents)
-
-TODO
+Project should be build in Python3. Moreover, the project requires modules included in [Requirements.txt](requirements.txt) to build. 
 
 # Project description
 
@@ -34,11 +32,11 @@ Project consists of several main modules:
 - main UI
 - tests
 
-*Game* -
-*Board* - 
-*Entities* -
-*Difficulty UI* - 
-*Main UI*
+*Game* - Wrapper for entieties, contains functions responsible for checking if game should end and calculating statistics.
+*Board* - Intializes game board with configuration chosen by player.
+*Entities* - Classes responsible for managing game entites such as flags, mines etc.
+*Difficulty UI* - Qt class that manages starting screen where player chooses difficulty of the game 
+*Main UI* - Main qt class which displays window with actual game.
 
 
 # Possible future improvements
@@ -59,16 +57,28 @@ framework to for example PyGame.
 
 [(Back to top)](#table-of-contents)
 
-MENU:
-![Screenshot from menu](https://raw.github.com/GreysonKrystian/Minesweeper/master/Example%20Photos/Menu_1.png)
-![Screenshot from menu](https://raw.github.com/GreysonKrystian/Minesweeper/master/Example%20Photos/Menu_2.png)
+<strong>MENU</strong>:
+<br>
+<p align="center" width="100%">
+<img alt="Screenshot from menu" src="https://raw.github.com/GreysonKrystian/Minesweeper/master/Example%20Photos/Menu_1.png" width=800 height= auto>
+<br>
+<br>
+<img alt="Screenshot from menu" src="https://raw.github.com/GreysonKrystian/Minesweeper/master/Example%20Photos/Menu_2.png" width=800 height= auto>
+</p>
 
-
-GAMEPLAY:
-![Screenshot from menu](https://raw.github.com/GreysonKrystian/Minesweeper/master/Example%20Photos/Gameplay_1.png)
-![Screenshot from menu](https://raw.github.com/GreysonKrystian/Minesweeper/master/Example%20Photos/Gameplay_Won.png)
-![Screenshot from menu](https://raw.github.com/GreysonKrystian/Minesweeper/master/Example%20Photos/Game_Ended.png)
-
+<strong>GAMEPLAY</strong>:
+<br>
+<p align="center" width="100%">
+<img alt="Screenshot of gameplay" src="https://raw.github.com/GreysonKrystian/Minesweeper/master/Example%20Photos/Gameplay_1.png" width=800 height= auto>
+ <br>
+ <br>
+<img alt="Screenshot of gameplay" src="https://raw.github.com/GreysonKrystian/Minesweeper/master/Example%20Photos/Gameplay_Won.png" width=800 height= auto> 
+<br>
+<br>
+<img alt="Screenshot of gameplay" src="https://raw.github.com/GreysonKrystian/Minesweeper/master/Example%20Photos/Game_Ended.png" width=800 height= auto>
+<br>
+<br>
+</p>
 
 
 
