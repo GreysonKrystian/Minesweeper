@@ -22,9 +22,9 @@ TODO
 
 [(Back to top)](#table-of-contents)
 
-The project is my implementation of popular classic game minesweeper. More info about game can be found [here] https://en.wikipedia.org/wiki/Minesweeper_(video_game)
+The project is my implementation of popular classic game minesweeper. More info about game can be found [here](https://en.wikipedia.org/wiki/Minesweeper_(video_game))
 It was created as one of my university one-person projects in 2020/2021 semestr. The main aim of projects was to learn fundamentals of OOP and Python.
-Projects is written in Python3 with UI created in [QT]https://www.qt.io module for python (PyQt).
+Projects is written in Python3 with UI created in [QT](https://www.qt.io) module for python (PyQt).
 
 Project consists of several main modules:
 - Game
@@ -60,7 +60,7 @@ framework to for example PyGame.
 [(Back to top)](#table-of-contents)
 
 MENU:
-![Screenshot from menu](https://raw.github.com/GreysonKrystian/Minesweeper/Example Photos/Menu1.png)
+![Screenshot from menu](https://raw.github.com/GreysonKrystian/Minesweeper/tree/master/Example%20Photos/Menu1.png)
 
 
 
